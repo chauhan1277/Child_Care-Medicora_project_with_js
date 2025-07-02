@@ -1,0 +1,1203 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Quicksand", sans-serif !important;
+    font-optical-sizing: auto;
+    color: rgb(9, 75, 109) !important;
+    /* font-weight: weight; */
+    /* font-style: normal; */
+}
+
+
+header {
+    background-color: rgb(247, 250, 240);
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    height: 10vh;
+}
+
+.nav-link {
+    color: rgb(9, 75, 109) !important;
+    font-weight: 600 !important;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+
+}
+
+.search-contact {
+    width: 15%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 19px;
+}
+
+.search-contact .left {
+    width: 35px;
+    height: 50px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-contact .right {
+    background-color: rgb(9, 75, 109);
+    width: 130px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.search-contact .right a {
+    font-size: 1em;
+    color: white;
+    padding: 0%;
+    font-weight: 600;
+    margin: 0%;
+    text-decoration: none;
+}
+
+/* Navbar End */
+/* Hero Section Start */
+
+header .hero-page {
+    /* background-color: aqua; */
+    height: 90vh;
+}
+
+header .hero-page .hero-page-container {
+    /* background-color: rgb(38, 255, 0); */
+    height: 100%;
+}
+
+.hero-page .hero-page-container .row {
+    height: 100%;
+
+}
+
+.hero-page .hero-page-container .row .heroP-left-col {
+    /* background-color: bisque; */
+    height: 100%;
+    position: relative;
+    top: 25%;
+
+}
+
+.hero-page .hero-page-container .row .heroP-left-col .sun-animation {
+    position: absolute;
+    left: -17%;
+    animation: downToup 1s ease;
+    -webkit-animation: downToup ease 1s;
+}
+
+
+.row .heroP-left-col .inner-box {
+    /* background-color: rgb(6, 132, 132); */
+    height: 50%;
+    z-index: 5;
+    position: relative;
+
+}
+
+
+.row .heroP-left-col .inner-box h1 {
+    font-size: 3.5em;
+    color: rgb(9, 75, 109);
+    font-weight: 650;
+}
+
+.row .heroP-left-col .inner-box p {
+    color: rgb(9, 75, 109);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.row .heroP-left-col .inner-box .contact-button {
+    background-color: rgb(9, 75, 109);
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 4% 0% 4% 0%;
+}
+
+.row .heroP-left-col .inner-box .contact-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.row .heroP-left-col .inner-box ul {
+    display: flex;
+    gap: 20px;
+    padding: 0%;
+
+
+}
+
+.row .heroP-left-col .inner-box ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.row .heroP-left-col .inner-box ul li .fa-check {
+    padding: 7px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 7px;
+
+}
+
+.hero-page .hero-page-container .row .heroP-right-col {
+    /* background-color: rgb(243, 172, 85); */
+    height: 100%;
+}
+
+.hero-page .hero-page-container .row .heroP-right-col .inner-box {
+    /* background-color: azure; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 7%;
+}
+
+.hero-page .hero-page-container .row .heroP-right-col .inner-box img {
+    width: 100%;
+    height: 90%;
+    /* width: 300px;
+        height: 300px;
+        background: url(./img/bg.jpg); */
+    background-size: 100% 100%;
+    border-radius: 62% 38% 25% 75% / 35% 41% 25% 65%;
+    transition: all linear 0.3s;
+    animation-name: image-animation;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+.hero-page .hero-page-container .row .heroP-right-col .inner-box img:hover {
+    border-radius: 20% 80% 23% 76% / 47% 21% 79% 41%;
+}
+
+@keyframes image-animation {
+    0% {
+        border-radius: 62% 38% 25% 75% / 35% 41% 25% 65%;
+    }
+
+    40% {
+        border-radius: 20% 80% 23% 76% / 47% 21% 79% 41%;
+    }
+
+    80% {
+        border-radius: 49% 51% 74% 24% / 26% 44% 56% 58%;
+    }
+
+    100% {
+        border-radius: 62% 38% 25% 75% / 35% 41% 25% 65%;
+    }
+}
+
+
+.wave-container {
+    position: relative;
+    background-color: #ffffff;
+    height: 250px;
+    overflow: hidden;
+}
+
+.wave-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/******Header End*********************************/
+/*###############################################*/
+/******Main Start*********************************/
+
+main {
+    height: auto;
+}
+
+/* --------------------------------------------- */
+/*--Section first Specialities-section Start-----*/
+
+main .specialities {
+    /* background-color: aqua; */
+    height: 203vh;
+}
+
+main .specialities .container .row .upper-col {
+    /* background-color: rgb(254, 240, 255); */
+    height: 36vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .specialities .container .row .upper-col .inner-box {
+    /* background-color: bisque; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .specialities .container .row .upper-col .inner-box .page-header {
+    background-color: rgb(235, 248, 255);
+    padding: 3px 10px 3px 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+main .specialities .container .row .upper-col .inner-box h2 {
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main .specialities .container .row .upper-col .inner-box .page-about {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 2% 4% 0% 4%;
+    font-weight: 500;
+}
+
+main .specialities .container .row .lowwer-col {
+    /* background-color: rgb(137, 113, 194); */
+    height: 160vh;
+    padding-top: 5vh;
+}
+
+/* .card-bx {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    border-radius: none;
+    border: none;
+    animation: crdboxDwnToUp 1s ease;
+    -webkit-animation: crdboxDwnToUp ease 1s;
+    position: absolute;
+    top: 35%;
+}
+
+
+@keyframes crdboxDwnToUp {
+    100% {
+        top: 35%;
+        opacity: 1;
+    }
+    50% {
+    
+        opacity: 0.5;
+    }
+
+    0% {
+        top: 45%;
+        opacity: 0;
+    }
+
+} */
+
+/*--Section first Specialities-section End-----*/
+/* --------------------------------------------- */
+/*--Section Second About-Us-section Start--------*/
+
+main .about-Us {
+    background-color: rgb(247, 250, 240);
+    height: 160vh;
+}
+
+main .about-Us .container {
+    /* background-color: aqua; */
+    height: 160vh;
+}
+
+main .about-Us .container .row .left {
+    /* background-color: rgb(255, 240, 248); */
+    height: 105vh;
+    display: flex;
+    align-items: center;
+}
+
+main .about-Us .container .row .left .inner {
+    width: 95%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+main .about-Us .container .row .left .inner .about-us-header {
+    background-color: white;
+    padding: 3.5px 10px 3.5px 10px;
+    width: 22%;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+main .about-Us .container .row .left .inner h1 {
+    font-weight: bolder;
+}
+
+main .about-Us .container .row .left .inner .details {
+    margin-right: 20%;
+}
+
+main .about-Us .container .row .left .inner ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+main .about-Us .container .row .left .inner ul li {
+    font-weight: 600;
+}
+
+main .about-Us .container .row .left .inner ul li i {
+    margin: 8px 7px 0px 0px;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 100%;
+
+
+}
+
+main .about-Us .container .row .left .inner .about-us-btn {
+    background-color: rgb(9, 75, 109);
+    width: 27%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    border-radius: 50px;
+
+}
+
+main .about-Us .container .row .left .inner .about-us-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+
+main .about-Us .container .row .right {
+    /* background-color: rgb(74, 200, 200); */
+    height: 105vh;
+    position: relative;
+
+}
+
+main .about-Us .container .row .right .photo-background {
+    background-color: rgb(214, 230, 179);
+    width: 84%;
+    height: 65%;
+    border-radius: 20px;
+    position: absolute;
+    top: 21%;
+    left: 16%;
+}
+
+main .about-Us .container .row .right .img-parent {
+    background: url(../images/Emergency-services.jpg);
+    background-position: 75%;
+    width: 84%;
+    height: 65%;
+    border-radius: 20px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+}
+
+main .about-Us .container .row .lowwer {
+    /* background-color: rgb(255, 205, 251); */
+    height: 55vh;
+    position: relative;
+}
+
+main .about-Us .container .row .lowwer .promise-section {
+    background-color: rgb(9, 75, 109);
+    height: 105vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+
+}
+
+main .about-Us .container .row .lowwer .promise-section .inner-box {
+    /* background-color: antiquewhite; */
+    /* width: 85%; */
+    height: 80%;
+}
+
+main .about-Us .container .row .lowwer .promise-section .inner-box .row .col .upper {
+    /* background-color: rgb(150, 255, 127); */
+    height: 20vh;
+}
+
+main .about-Us .container .row .lowwer .promise-section .inner-box .row .col .upper .promise-header {
+    background-color: rgba(255, 255, 255, 0.133);
+    padding: 3.5px 10px 3.5px 10px;
+    width: 12.1%;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: relative;
+    top: 3%;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+main .about-Us .container .row .lowwer .promise-section .inner-box .row .col .upper h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: white;
+}
+
+main .about-Us .container .row .lowwer .promise-section .inner-box .row .col .upper .details {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+main .about-Us .container .row .lowwer .promise-section .inner-box .row .col .lowwer {
+    /* background-color: rgb(90, 116, 182); */
+    height: 64vh;
+}
+
+.card-boxx {
+    height: 30.9vh;
+    border: none;
+    background-color: rgb(9, 75, 109);
+    /* background-color: rgb(9,75,109); */
+}
+
+.card-boxx .card-parent-img {
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    height: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.card-boxx .card-parent-img .card-safty-logo {
+    /* background-color: rgb(255, 255, 255); */
+    width: 50%;
+    height: 50%;
+}
+
+.card-boxx .card-title {
+    /* background-color: aqua; */
+    position: relative;
+    top: 15%;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 1.6em;
+}
+
+.card-boxx .card-text {
+    /* background-color: rgb(0, 255, 140); */
+    position: relative;
+    top: 18%;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/*--Section Second About-Us-section End--------*/
+/* ------------------------------------------- */
+/*-Section Third Team-and-Clinic-section Start-*/
+
+
+main .team-nd-clinic {
+    /* background-color: bisque; */
+    height: 300vh;
+}
+
+main .team-nd-clinic .row .col .meet-the-team {
+    /* background-color: aquamarine; */
+    height: 190vh;
+}
+
+main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper {
+    /* background-color: cadetblue; */
+    height: 97vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner {
+    /* background-color: rgb(25, 165, 30); */
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner .page-header {
+    background-color: rgb(235, 248, 255);
+    padding: 5px 12px 5px 12px;
+    width: 21%;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: relative;
+    top: 26%;
+    border-radius: 50px;
+}
+
+main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner h2 {
+    position: relative;
+    top: 27%;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner .details {
+    position: relative;
+    top: 32%;
+    text-align: center;
+    margin: 0% 17% 0% 17%;
+    /* font-weight: 600; */
+
+}
+
+.meet-the-team .row .col .mtt-lower {
+    /* background-color: rgb(96, 160, 95); */
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-the-team .row .col .mtt-lower .row .mtt-card-col .mtt-card {
+    background-color: #ebf8ff;
+    border-radius: 20px;
+
+}
+
+.meet-the-team .row .col .mtt-lower .row .mtt-card-col .mtt-card:hover {
+    background-color: rgb(247, 250, 240);
+}
+
+.meet-the-team .row .col .mtt-lower .row .mtt-card-col .card .card-img-top {
+    border-radius: 20px;
+    height: 45vh;
+}
+
+.meet-the-team .row .col .mtt-lower .row .mtt-card-col .card .card-body {
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+
+.mtt-lower .row .mtt-card-col .card .card-body .card-title {
+    position: relative;
+    top: 15%;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: rgb(9, 75, 109);
+}
+
+.mtt-lower .row .mtt-card-col .card .card-body .card-text {
+    color: rgb(9, 75, 109);
+    position: relative;
+    top: 20%;
+
+}
+
+.mtt-lower .row .mtt-card-col .card .card-body ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0%;
+    position: relative;
+    top: 19%;
+}
+
+.mtt-lower .row .mtt-card-col .card .card-body ul li {
+    background-color: rgb(9, 75, 109);
+    padding: 10%;
+    font-size: 0.9em;
+    color: #ffffff;
+    border-radius: 100%;
+
+}
+
+main .team-nd-clinic .row .col .clinic-highlights {
+    /* background-color: aquamarine; */
+    height: 110vh;
+}
+
+main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper {
+    /* background-color: cadetblue; */
+    height: 58vh;
+}
+
+main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner {
+    /* background-color: rgb(25, 165, 165); */
+    height: 100%;
+
+}
+
+main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner .page-header {
+    background-color: rgb(235, 248, 255);
+    padding: 5px 12px 5px 12px;
+    width: 156px;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: relative;
+    top: 6%;
+    border-radius: 50px;
+}
+
+main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner h2 {
+    position: relative;
+    top: 8%;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner .details {
+    position: relative;
+    top: 12%;
+    text-align: center;
+    margin: 0% 27% 0% 27%;
+    font-weight: 600;
+
+}
+
+.clinic-highlights .row .col .mtt-upper .inner .box {
+    height: 20%;
+    /* background-color: aqua; */
+    position: relative;
+    top: 25%;
+}
+
+/* .clinic-highlights  .row .col .mtt-upper .inner .box .inner-box{
+    background-color: aquamarine;
+} */
+.clinic-highlights .row .col .mtt-upper .inner .box .inner-box .uppr {
+    /* background-color: rgb(229, 255, 127); */
+    display: flex;
+    justify-content: center;
+}
+
+.clinic-highlights .row .col .mtt-upper .inner .box .inner-box h1 {
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 900;
+    padding: 0%;
+    margin: 0%;
+}
+
+.clinic-highlights .row .col .mtt-upper .inner .box .inner-box p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.clinic-highlights .row .col .pediatric-insight {
+    background-color: rgb(9, 75, 109);
+    height: 72vh;
+    border-radius: 20px;
+
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details {
+    height: 72vh;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details {
+    height: 52vh;
+    position: relative;
+    top: 10vh;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details .services-header {
+    background-color: rgba(255, 255, 255, 0.114);
+    padding: 3.5px 10px 3.5px 10px;
+    width: 155px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details .details {
+    color: #ffffff;
+    margin-right: 10%;
+    margin-bottom: 10%
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details ul {
+    /* background-color: blueviolet; */
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details ul li {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details ul li i {
+    margin: 8px 7px 0px 0px;
+    background-color: #ffffff1d;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.pi-upper-col .pi-details .inner-pi-details .view-service-btn {
+    background-color: #ffffff;
+    width: 170px;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 50px;
+}
+
+.pi-details .inner-pi-details .view-service-btn a {
+    text-decoration: none;
+    color: rgb(9, 75, 109);
+    font-weight: 900;
+}
+
+.clinic-highlights .row .col .pediatric-insight .row .pi-lower-col {
+    background-color: blueviolet;
+    height: 72vh;
+    position: relative;
+}
+
+.clinic-highlights .row .col .pediatric-insight .row .pi-lower-col .pi-img {
+    background-color: rgb(46, 176, 85);
+    height: 100%;
+
+    /* background: transparent; */
+    /* background: url(./images/behavior-health.jpg); */
+    /* background-position: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 50; */
+    position: absolute;
+}
+
+
+/*--Section Third Team-and-Clinic-section End--*/
+/* ------------------------------------------- */
+/*-Section fourth Happy-Clients-section Start-*/
+
+
+main .happy-clients {
+    height: 120vh;
+    background-color: rgb(247, 250, 240);
+}
+
+main .happy-clients .hp-client .row .col .hpc-upper {
+    /* background-color: cadetblue; */
+    height: 56vh;
+}
+
+main .happy-clients .hp-client .row .col .hpc-upper .inner {
+    /* background-color: rgb(25, 165, 30); */
+    position: relative;
+    top: 60%;
+    height: 40%;
+}
+
+main .happy-clients .hp-client .row .col .hpc-upper .inner .page-header {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 12px 5px 12px;
+    width: 212px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+main .happy-clients .hp-client .row .col .hpc-upper .inner h2 {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+main .happy-clients .hp-client .row .col .hpc-upper .inner .details {
+    text-align: center;
+    margin: 0% 17% 0% 17%;
+    font-weight: 600;
+
+}
+
+main .happy-clients .hp-client .row .col .hpc-lower {
+    background-color: beige;
+    height: 64vh;
+    /* overflow: hidden; */
+}
+
+main .happy-clients .hp-client .row .col .hpc-lower .silder-box {
+    background-color: cadetblue;
+    /* width: 200vw; */
+    height: 70%;
+    position: relative;
+    top: 15%;
+}
+
+main .happy-clients .hp-client .row .col .hpc-lower .silder-box .slider {
+    height: 100%;
+}
+
+/* .carousel-item{
+    background-color: aqua;
+      margin-right: -33%;
+
+} */
+
+
+
+/*---Section fourth Happy-Clients-section End--*/
+/* ------------------------------------------- */
+/*-Section fifth Clinic-Updates-section Start-*/
+
+
+main .client-updates {
+    height: 160vh;
+    /* background-color: aqua; */
+}
+
+main .client-updates .row .col .client-page-details {
+    /* background-color: aquamarine; */
+    height: 125vh;
+}
+
+main .client-updates .row .col .client-page-details .row .col .cpc-upper {
+    /* background-color: cadetblue; */
+    height: 45vh;
+}
+
+main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner {
+    /* background-color: rgb(25, 165, 30); */
+    height: 100%;
+}
+
+main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .page-header {
+    background-color: rgb(235, 248, 255);
+    padding: 5px 12px 5px 12px;
+    width: 145px;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: relative;
+    top: 26%;
+    border-radius: 50px;
+}
+
+main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner h2 {
+    position: relative;
+    top: 27%;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .details {
+    position: relative;
+    top: 32%;
+    text-align: center;
+    margin: 0% 17% 0% 17%;
+    font-weight: 500;
+
+}
+
+.client-page-details .row .col .cpc-lower {
+    /* background-color: rgb(96, 160, 95); */
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card {
+    background-color: #ebf8ff;
+    border-radius: 20px;
+
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card:hover {
+    background-color: rgb(247, 250, 240);
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .card .card-img-top {
+    border-radius: 20px;
+    height: 45vh;
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .card .card-body {
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+
+.cpc-lower .row .mtt-card-col .card .card-body .card-title {
+    position: relative;
+    top: 15%;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: rgb(9, 75, 109);
+}
+
+.cpc-lower .row .mtt-card-col .card .card-body .card-text {
+    color: rgb(9, 75, 109);
+    position: relative;
+    top: 20%;
+
+}
+
+.cpc-lower .row .mtt-card-col .card .card-body ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0%;
+    position: relative;
+    top: 19%;
+}
+
+.cpc-lower .row .mtt-card-col .card .card-body ul li {
+    background-color: rgb(9, 75, 109);
+    padding: 10%;
+    font-size: 0.9em;
+    color: #ffffff;
+    border-radius: 100%;
+
+}
+
+main .client-updates .row .col .cpd-lower {
+    /* background-color: aquamarine; */
+    height: 35vh;
+}
+
+main .client-updates .row .col .cpd-lower .schedule-visit {
+    background-color: rgb(9, 75, 109);
+    position: relative;
+    top: 2vh;
+    height: 64vh;
+    border-radius: 20px;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner {
+    height: 40vh;
+    position: relative;
+    top: 12vh;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner {
+    /* background-color: rgb(174, 16, 85); */
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner .page-header {
+    background-color: rgba(255, 255, 255, 0.114);
+    padding: 3.5px 10px 3.5px 10px;
+    width: 136px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner .details {
+    padding: 0% 12% 0% 12%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner .appointment-btn {
+    background-color: #ffffff;
+    width: 200px;
+    height: 13%;
+    padding: 4% 1% 4% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    border-radius: 50px;
+}
+
+.cpd-lower .schedule-visit .row .col .sv-inner .inner .appointment-btn a {
+    text-decoration: none;
+    color: rgb(9, 75, 109);
+    font-weight: 900;
+}
+
+
+
+/*-Section fifth Clinic-Updates-section End---*/
+/* ------------------------------------------ */
+
+/* *****************Main End***************** */
+/* ########################################## */
+/* ***************Footer Start*************** */
+
+
+footer {
+    background-color: rgb(247, 250, 240);
+    height: auto;
+}
+
+
+/* ------------------------------------------ */
+/*---------Section first-footer Start---------*/
+
+footer .footer-section {
+    /* background-color: rgb(18, 110, 33); */
+    height: 100vh;
+}
+
+footer .footer-section .container {
+    height: 100vh;
+    /* background-color: aquamarine; */
+
+}
+
+footer .footer-section .container .row .col .inner-box {
+    position: relative;
+    top: 30vh;
+    height: 70vh;
+    /* background-color: bisque; */
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box {
+    height: 37vh;
+    /* background-color: rgb(196, 201, 255); */
+    position: relative;
+    top: 15vh;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.684);
+
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner p {
+    margin-top: 22px;
+    font-weight: 500;
+    margin-right: 10%;
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner h5 {
+    font-weight: 800;
+    margin-top: 2px;
+    margin-bottom: 20px;
+
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner ul {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner ul li {
+    /* background-color: aqua; */
+    list-style: none;
+    font-weight: 600;
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(75, 92, 100, 0.26);
+
+
+}
+
+.container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul li {
+    /* padding: 5px; */
+    font-weight: 500;
+    margin: 5px 0px 5px 0px;
+}
+
+
+
+
+.container .row .col .inner-box .row .col .lower-footer-box {
+    height: 18vh;
+    /* background-color: rgb(196, 255, 206); */
+    position: relative;
+    top: 15vh;
+}
+
+.container .row .col .inner-box .row .col .lower-footer-box .left p {
+    margin: 0%;
+    font-weight: 500;
+    line-height: 18vh;
+}
+
+.container .row .col .inner-box .row .col .lower-footer-box .right ul {
+    line-height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+.container .row .col .inner-box .row .col .lower-footer-box .right ul li {
+    list-style: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*---------Section first-footer Start---------*/
+/* ------------------------------------------ */
+/* ########################################## */
+/* ***************Footer End*************** */
+/* ########################################## */
