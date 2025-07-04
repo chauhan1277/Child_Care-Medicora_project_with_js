@@ -633,7 +633,7 @@ main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner .detai
 .mtt-lower .row .mtt-card-col .card .card-body ul {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 15px;
     list-style: none;
     padding: 0%;
     position: relative;
@@ -642,12 +642,17 @@ main .team-nd-clinic .row .col .meet-the-team .row .col .mtt-upper .inner .detai
 
 .mtt-lower .row .mtt-card-col .card .card-body ul li {
     background-color: rgb(9, 75, 109);
-    padding: 10%;
+    height: 35px;
+    width: 35px;
     font-size: 0.9em;
     color: #ffffff;
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 main .team-nd-clinic .row .col .clinic-highlights {
     /* background-color: aquamarine; */
@@ -722,17 +727,34 @@ main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner .d
     font-weight: 900;
 }
 
-.clinic-highlights .row .col .pediatric-insight {
-    background-color: rgb(9, 75, 109);
+
+
+/*--Section Third Team-and-Clinic-section End--*/
+/* ------------------------------------------- */
+/*-Section fourth Happy-Clients-section Start-*/
+
+
+main .happy-clients {
+    height: 120vh;
+    background-color: rgb(247, 250, 240);
+}
+.hp-client .row .col .pediatric-insight {
+    /* background-color: rgb(9, 75, 109); */
     height: 72vh;
     border-radius: 20px;
-
+    margin-top: -55vh;
+    margin-left: 2.5vw;
 }
 
+
+.pediatric-insight .row .pi-upper-col{
+    background-color: rgb(9, 75, 109);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
 .pediatric-insight .row .pi-upper-col .pi-details {
     height: 72vh;
 }
-
 .pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details {
     height: 52vh;
     position: relative;
@@ -798,35 +820,15 @@ main .team-nd-clinic .row .col .clinic-highlights .row .col .mtt-upper .inner .d
     font-weight: 900;
 }
 
-.clinic-highlights .row .col .pediatric-insight .row .pi-lower-col {
-    background-color: blueviolet;
-    height: 72vh;
-    position: relative;
-}
-
-.clinic-highlights .row .col .pediatric-insight .row .pi-lower-col .pi-img {
-    background-color: rgb(46, 176, 85);
-    height: 100%;
-
-    /* background: transparent; */
-    /* background: url(./images/behavior-health.jpg); */
-    /* background-position: 50%;
-    background-size: cover;
+.hp-client .row .col  .pediatric-insight .row .pi-lower-col {
+    background: transparent;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    z-index: 50; */
-    position: absolute;
 }
 
-
-/*--Section Third Team-and-Clinic-section End--*/
-/* ------------------------------------------- */
-/*-Section fourth Happy-Clients-section Start-*/
-
-
-main .happy-clients {
-    height: 120vh;
-    background-color: rgb(247, 250, 240);
+.hp-client .row .col .pediatric-insight .row .pi-lower-col .pi-img {
+    height: 72vh;
+    background-size: cover;
 }
 
 main .happy-clients .hp-client .row .col .hpc-upper {
@@ -837,7 +839,7 @@ main .happy-clients .hp-client .row .col .hpc-upper {
 main .happy-clients .hp-client .row .col .hpc-upper .inner {
     /* background-color: rgb(25, 165, 30); */
     position: relative;
-    top: 60%;
+    top: 27%;
     height: 40%;
 }
 
@@ -864,29 +866,73 @@ main .happy-clients .hp-client .row .col .hpc-upper .inner .details {
 }
 
 main .happy-clients .hp-client .row .col .hpc-lower {
-    background-color: beige;
+    /* background-color: beige; */
     height: 64vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 main .happy-clients .hp-client .row .col .hpc-lower .silder-box {
-    background-color: cadetblue;
-    /* width: 200vw; */
-    height: 70%;
+    /* background-color: cadetblue; */
     position: relative;
-    top: 15%;
+    top: 0vh;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 main .happy-clients .hp-client .row .col .hpc-lower .silder-box .slider {
-    height: 100%;
+    /* background-color: brown; */
+    height: 44vh;
 }
+.slider-card-bx{
+    background-color: #ffffff;
+    height: 17rem;
+    border-radius: 30px !important;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+}
+.slider-card-bx .text-body-secondary i{
+    height: 1.5rem;
+    color: rgb(9, 75, 109);
+}
+.slider-card-bx .card-text {
+    height: 5em;
+    color: rgb(9, 75, 109);
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.slider-card-bx .card-box-inner{
+    height: 5rem;
+    /* background-color: aqua; */
+    display: flex;
+    
+}
+.slider-card-bx .card-box-inner .card-img-left{
+    padding: 2px;
+   
+}
+.slider-card-bx .card-box-inner .card-img-left img{
+    border-radius: 20px;
+}
+.slider-card-bx .card-box-inner .card-text-right{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider-card-bx .card-box-inner .card-text-right h5{
+    font-weight: bolder;
+    margin: 0% 0% 0% 2%;
+    color: rgb(9, 75, 109);
 
-/* .carousel-item{
-    background-color: aqua;
-      margin-right: -33%;
-
-} */
-
+}
+.slider-card-bx .card-box-inner .card-text-right p{
+    font-size: 0.9em;
+    color: rgb(9, 75, 109);
+    margin: 0% 0% 0% 2%;
+}
 
 
 /*---Section fourth Happy-Clients-section End--*/
@@ -953,59 +999,85 @@ main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner 
 .client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card {
     background-color: #ebf8ff;
     border-radius: 20px;
-
+    height: 70vh;
 }
-
-.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card:hover {
-    background-color: rgb(247, 250, 240);
-}
-
-.client-page-details .row .col .cpc-lower .row .mtt-card-col .card .card-img-top {
-    border-radius: 20px;
-    height: 45vh;
-}
-
-.client-page-details .row .col .cpc-lower .row .mtt-card-col .card .card-body {
-    padding: 2% 0% 0% 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 20vh;
-}
-
-.cpc-lower .row .mtt-card-col .card .card-body .card-title {
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .top{
+    height: 30vh;
     position: relative;
-    top: 15%;
-    font-weight: 900;
-    font-size: 1.4em;
-    color: rgb(9, 75, 109);
+    border-radius: 20px;
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .top .imgg{
+    height: 100%;
+    position: absolute;
+    transition: all linear 0.2s;
 }
 
-.cpc-lower .row .mtt-card-col .card .card-body .card-text {
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .top .imgg .card-img-top {
+    border-radius: 20px;
+    height: 30vh;
+    transition: all linear 0.2s;
+}
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .top:hover .imgg{
+    transform: scale(1);
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .top .card-img-top:hover {
+    transform: scale(1.1);
+    /* transform: translateY(-5%); */
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down{
+    /* background-color: rgb(148, 214, 155); */
+    height: 33vh;
+}
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down h5{
     color: rgb(9, 75, 109);
+    font-weight: bolder;
+    position: relative;
+    top: 11%;
+}
+
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down h6{
+    color: rgb(9, 75, 109);
+    font-weight: 700;
+    position: relative;
+    top: 14%;
+}
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down p{
+    color: rgb(9, 75, 109);
+    font-size: 1em;
+    font-weight: 500;
     position: relative;
     top: 20%;
-
 }
-
-.cpc-lower .row .mtt-card-col .card .card-body ul {
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down .card-button{
+    background-color: rgb(9, 75, 109);
+    height: 40px;
+    width: 120px;
     display: flex;
     justify-content: center;
-    gap: 25px;
-    list-style: none;
-    padding: 0%;
+    align-items: center;
+    border-radius: 50px;
     position: relative;
-    top: 19%;
+    top: 22%;
+}
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down .card-button:hover{
+    transform: scale(1.1);
+    transition: all linear 0.2s;
 }
 
-.cpc-lower .row .mtt-card-col .card .card-body ul li {
-    background-color: rgb(9, 75, 109);
-    padding: 10%;
-    font-size: 0.9em;
+.client-page-details .row .col .cpc-lower .row .mtt-card-col .mtt-card .card-body .down .card-button a{
+    text-decoration: none;
+    font-weight: 700;
     color: #ffffff;
-    border-radius: 100%;
-
 }
+
+
+
+
+
 
 main .client-updates .row .col .cpd-lower {
     /* background-color: aquamarine; */
@@ -1146,6 +1218,8 @@ footer .footer-section .container .row .col .inner-box {
     list-style: none;
     font-weight: 600;
 }
+
+
 
 .container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul {
     /* background-color: aliceblue; */

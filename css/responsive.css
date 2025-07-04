@@ -72,6 +72,7 @@
         position: relative;
         top: 7%;
     }
+
     main .specialities .container .row .upper-col .inner-box {
         align-items: flex-start;
     }
@@ -267,8 +268,16 @@
         height: 100vh;
     }
 
+    .pediatric-insight .row .pi-upper-col {
+        background-color: rgb(9, 75, 109);
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
     .pediatric-insight .row .pi-upper-col .pi-details {
         height: 50vh;
+        /* background-color: aqua; */
     }
 
     .pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details {
@@ -283,14 +292,15 @@
 
     .pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details h1 {
         position: relative;
-        top: 15%;
+        top: 13%;
         font-size: 1.7em;
     }
 
     .pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details .details {
         position: relative;
-        top: 18%;
+        top: 14%;
         font-size: 0.9em;
+        margin-right: 5%;
     }
 
     .pediatric-insight .row .pi-upper-col .pi-details .inner-pi-details ul {
@@ -299,7 +309,7 @@
 
     .pi-upper-col .pi-details .inner-pi-details .view-service-btn {
         position: relative;
-        top: 20%;
+        top: 14%;
 
     }
 
@@ -307,6 +317,7 @@
         height: 50vh;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
 
     }
 
@@ -315,186 +326,216 @@
     /* ------------------------------------------- */
     /*-Section fourth Happy-Clients-section Start-*/
 
-main .happy-clients {
-    height: 135vh;
-}
-main .happy-clients .hp-client .row .col .hpc-upper {
-    /* background-color: cadetblue; */
-    height: 73vh;
-}  
-main .happy-clients .hp-client .row .col .hpc-upper .inner{
-    /* background-color: rgb(25, 165, 30); */
-    top: 60%;
-    height: 40%;
-} 
-main .happy-clients .hp-client .row .col .hpc-upper .inner h2 {
-    text-align: left;
-    font-size: 1.6em;
-}
-main .happy-clients .hp-client .row .col .hpc-upper .inner .details {
-    text-align: left;
-    font-size: 0.9em;
-    margin: 0% 0% 0% 0%;
+    main .happy-clients {
+        height: 135vh;
+    }
 
-}
-main .happy-clients .hp-client .row .col .hpc-lower {
-    /* background-color: beige; */
-    height: 62vh;
-}
-main .happy-clients .hp-client .row .col .hpc-lower .inner{
-    /* background-color: cadetblue; */
-    height: 70%;
-    position: relative;
-    top: 10%;
-}
+    main .happy-clients .hp-client .row .col .hpc-upper {
+        /* background-color: cadetblue; */
+        height: 73vh;
+    }
+
+    main .happy-clients .hp-client .row .col .hpc-upper .inner {
+        /* background-color: rgb(25, 165, 30); */
+        top: 60%;
+        height: 40%;
+    }
+
+    main .happy-clients .hp-client .row .col .hpc-upper .inner h2 {
+        text-align: left;
+        font-size: 1.6em;
+    }
+
+    main .happy-clients .hp-client .row .col .hpc-upper .inner .details {
+        text-align: left;
+        font-size: 0.9em;
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    main .happy-clients .hp-client .row .col .hpc-lower {
+        /* background-color: beige; */
+        height: 62vh;
+    }
+
+    main .happy-clients .hp-client .row .col .hpc-lower .inner {
+        /* background-color: cadetblue; */
+        height: 70%;
+        position: relative;
+        top: 10%;
+    }
 
 
     /*---Section fourth Happy-Clients-section End--*/
     /* ------------------------------------------- */
     /*-Section fifth Clinic-Updates-section Start-*/
 
-main .client-updates{
-    height: 280vh;
-} 
-main .client-updates .row .col .client-page-details {
-    /* background-color: aquamarine; */
-    height: 260vh;
-}
-main .client-updates .row .col .client-page-details .row .col .cpc-upper{
-    /* background-color: cadetblue; */
-    height: 30vh;
-}
-.client-page-details .row .col .cpc-lower {
-    /* background-color: rgb(96, 160, 95); */
-    height: 230vh;
-}
-main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .page-header {
-    top: 13%;
-}
-main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner h2 {
-    position: relative;
-    top: 17%;
-    text-align: left;
-    font-size: 1.7em;
-    padding: 0%;
-    margin: 0%;
-}
-main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .details {
-    position: relative;
-    top: 21%;
-    text-align: left;
-    margin: 0% 0% 0% 0%;
+    main .client-updates {
+        height: 280vh;
+    }
 
-}
-main .client-updates .row .col .cpd-lower {
-    height: 30vh;
-}
-main .client-updates .row .col .cpd-lower .schedule-visit{
-    background-color: rgb(9, 75, 109);
-    position: relative;
-    top: 2vh;
-    height: 50vh;
-}
-.cpd-lower .schedule-visit .row .col .sv-inner{
-    height: 40vh;
-    top: 5vh;
-}
-.cpd-lower .schedule-visit .row .col .sv-inner .inner{
-    /* background-color: rgb(174, 16, 85); */
-    top: 0%;
-    height: 100%;
-}
-.cpd-lower .schedule-visit .row .col .sv-inner .inner h1{
-    text-align: left;
-    font-size: 1.7em;
-}
-.cpd-lower .schedule-visit .row .col .sv-inner .inner .details{
-    padding: 0%;
-    text-align: left;
-}
+    main .client-updates .row .col .client-page-details {
+        /* background-color: aquamarine; */
+        height: 260vh;
+    }
 
+    main .client-updates .row .col .client-page-details .row .col .cpc-upper {
+        /* background-color: cadetblue; */
+        height: 30vh;
+    }
 
-/*-Section fifth Clinic-Updates-section End---*/
-/* ------------------------------------------ */
+    .client-page-details .row .col .cpc-lower {
+        /* background-color: rgb(96, 160, 95); */
+        height: 230vh;
+    }
 
-/* *****************Main End***************** */
-/* ########################################## */
-/* ***************Footer Start*************** */
+    main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .page-header {
+        top: 13%;
+    }
 
+    main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner h2 {
+        position: relative;
+        top: 17%;
+        text-align: left;
+        font-size: 1.7em;
+        padding: 0%;
+        margin: 0%;
+    }
 
+    main .client-updates .row .col .client-page-details .row .col .cpc-upper .inner .details {
+        position: relative;
+        top: 21%;
+        text-align: left;
+        margin: 0% 0% 0% 0%;
 
-/* ------------------------------------------ */
-/*---------Section first-footer Start---------*/
+    }
 
-footer .footer-section {
-    height: 195vh;
-}
-footer .footer-section .container {
-    height: 195vh;
+    main .client-updates .row .col .cpd-lower {
+        height: 30vh;
+    }
 
-}
-footer .footer-section .container .row .col .inner-box {
-    top: 32vh;
-    height: 163vh;
-}
-.container .row .col .inner-box .row .col .upper-footer-box {
-    height: 128vh;
-    top: 12vh;
-    border-bottom: 1px solid rgba(151, 151, 151, 0.684);
+    main .client-updates .row .col .cpd-lower .schedule-visit {
+        background-color: rgb(9, 75, 109);
+        position: relative;
+        top: 2vh;
+        height: 50vh;
+    }
 
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner p {
-    margin-top: 25px;
-    font-size: 0.9em;
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner h5 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 1.2em;
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner ul {
-    gap: 10px;
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner ul li {
-    font-size: 0.9em;
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul {
-    flex-direction: column;
-    margin-top: 13px;
-    padding-bottom: 13px;
-}
-.container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul li {
-    margin: 0px 0px 0px 0px;
-    font-size: 1em;
-    
-}
+    .cpd-lower .schedule-visit .row .col .sv-inner {
+        height: 40vh;
+        top: 5vh;
+    }
+
+    .cpd-lower .schedule-visit .row .col .sv-inner .inner {
+        /* background-color: rgb(174, 16, 85); */
+        top: 0%;
+        height: 100%;
+    }
+
+    .cpd-lower .schedule-visit .row .col .sv-inner .inner h1 {
+        text-align: left;
+        font-size: 1.7em;
+    }
+
+    .cpd-lower .schedule-visit .row .col .sv-inner .inner .details {
+        padding: 0%;
+        text-align: left;
+    }
 
 
-.container .row .col .inner-box .row .col .lower-footer-box {
-    height: 23vh;
-    top: 12vh;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    /* justify-content: space-around; */
-    gap: 2px;
-}
-.container .row .col .inner-box .row .col .lower-footer-box .left p {
-    font-size: 0.8em;
-    line-height: 5vh;
-}
-.container .row .col .inner-box .row .col .lower-footer-box .right ul {
-    line-height: 5vh;
-    justify-content: left;
-    padding: 0%;
-}
-.container .row .col .inner-box .row .col .lower-footer-box .right ul li {
-    margin-right: 25px;
-}
+    /*-Section fifth Clinic-Updates-section End---*/
+    /* ------------------------------------------ */
+
+    /* *****************Main End***************** */
+    /* ########################################## */
+    /* ***************Footer Start*************** */
 
 
-/*---------Section first-footer Start---------*/
-/* ------------------------------------------ */
+
+    /* ------------------------------------------ */
+    /*---------Section first-footer Start---------*/
+
+    footer .footer-section {
+        height: 195vh;
+    }
+
+    footer .footer-section .container {
+        height: 195vh;
+
+    }
+
+    footer .footer-section .container .row .col .inner-box {
+        top: 32vh;
+        height: 163vh;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box {
+        height: 128vh;
+        top: 12vh;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.684);
+
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner p {
+        margin-top: 25px;
+        font-size: 0.9em;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner h5 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner ul {
+        gap: 10px;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner ul li {
+        font-size: 0.9em;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul {
+        flex-direction: column;
+        margin-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    .container .row .col .inner-box .row .col .upper-footer-box .inner ul li ul li {
+        margin: 0px 0px 0px 0px;
+        font-size: 1em;
+
+    }
+
+
+    .container .row .col .inner-box .row .col .lower-footer-box {
+        height: 23vh;
+        top: 12vh;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2px;
+    }
+
+    .container .row .col .inner-box .row .col .lower-footer-box .left p {
+        font-size: 0.8em;
+        line-height: 5vh;
+    }
+
+    .container .row .col .inner-box .row .col .lower-footer-box .right ul {
+        line-height: 5vh;
+        justify-content: left;
+        padding: 0%;
+    }
+
+    .container .row .col .inner-box .row .col .lower-footer-box .right ul li {
+        margin-right: 25px;
+    }
+
+
+    /*---------Section first-footer Start---------*/
+    /* ------------------------------------------ */
 
 }
 
